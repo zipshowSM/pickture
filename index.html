@@ -45,12 +45,12 @@
   </svg>
 </div>
 <div class="page__inner animsition">
-  <!-- header -->
+  <!-- 헤더 영역 -->
   <header class="header header_white header_fixed ">
     <div class="header__container">
       <div class="header__wrapper container-fluid">
         <div class="header__inner">
-          <a class="logo header__logo" href="/">Pickture</a>
+          <a class="logo header__logo" href="index.html"><img src="img/logo.png" alt="Pickture logo" style="height: 100px;"></a>
           <button class="header__menu-button" type="button">
             <span class="header__menu-button-inner"></span>
           </button>
@@ -66,17 +66,17 @@
             </li>
             <li class="top-menu__menu-item">
               <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">News</a>
+                <a class="dropdown__trigger top-menu__menu-link" href="news.html">News</a>
               </div>
             </li>
             <li class="top-menu__menu-item">
               <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">Spot</a>
+                <a class="dropdown__trigger top-menu__menu-link" href="spot.html">Spot</a>
                 <div class="dropdown__menu">
                   <div class="dropdown__column">
                     <div class="dropdown__title">Movie</div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="index.html">Action</a>
+                      <a class="dropdown__link" href="spot.html" data-active="Movie">Action</a>
                     </div>
                     <div class="dropdown__item">
                       <a class="dropdown__link" href="home-parallax-piling.html">Classic</a>
@@ -85,7 +85,7 @@
                       <a class="dropdown__link" href="home-zoom-parallax.html">Comedy</a>
                     </div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link dropdown__link dropdown__link_active" href="home-3d-panorama.html">Crime</a>
+                      <a class="dropdown__link dropdown__link" href="home-3d-panorama.html">Crime</a>
                     </div>
                     <div class="dropdown__item">
                       <a class="dropdown__link" href="home-studio.html">Drama</a>
@@ -115,19 +115,19 @@
                   <div class="dropdown__column">
                     <div class="dropdown__title">Location</div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="home-default-dark.html">인천/서울</a>
+                      <a class="dropdown__link" href="home-default-dark.html">Seoul/Incheon</a>
                     </div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="home-zoom-parallax-dark.html">강원도</a>
+                      <a class="dropdown__link" href="home-zoom-parallax-dark.html">Gangwon-do</a>
                     </div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="home-3d-panorama-dark.html">경기도</a>
+                      <a class="dropdown__link" href="home-3d-panorama-dark.html">Gyeonggi-do</a>
                     </div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="home-studio-dark.html">경상도</a>
+                      <a class="dropdown__link" href="home-studio-dark.html">Gyeongsang-do</a>
                     </div>
                     <div class="dropdown__item">
-                      <a class="dropdown__link" href="home-minimal-dark.html">전라도</a>
+                      <a class="dropdown__link" href="home-minimal-dark.html">Jeolla-do</a>
                     </div>
                   </div>
                 </div>
@@ -135,14 +135,10 @@
             </li>
             <li class="top-menu__menu-item">
               <div class="dropdown">
-                <a class="dropdown__trigger top-menu__menu-link" href="#">Contact</a>
+                <a class="dropdown__trigger top-menu__menu-link" href="contact.html">Contact</a>
               </div>
             </li>
           </ul>
-          <div class="header-full-page__contacts">
-            <span>Call us 24/7:</span>
-            <a href="tel:+9656851379">+96 56-85-1379</a>
-          </div>
         </div>
       </div>
     </div>
@@ -152,63 +148,65 @@
         <button class="header__menu-button header__menu-button_fixed" type="button">
           <span class="header__menu-button-inner"></span>
         </button>
+        <div class="menu-panel__locales">
+          <div class="menu-panel__locale link link link_active"></div>
+          <div class="menu-panel__locale link"></div>
+          <div class="menu-panel__locale link"></div>
+        </div>
         <div class="menu-panel__menu">
           <div class="menu-panel__menu-item">
             <a class="menu-panel__menu-link menu-panel__menu-link menu-panel__menu-link_active" data-toggle="collapse" href="#submenu1">Home</a>
           </div>
           <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="#submenu2">News</a>
+            <a class="menu-panel__menu-link collapsed" data-toggle="collapse" href="news.html">News</a>
           </div>
           <div class="menu-panel__menu-item">
             <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#submenu3">Spot</a>
             <div class="menu-panel__menu-list collapse" id="submenu3">
               <div class="menu-panel__bottom-submenu">
                 <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-grid.html">Movie</a>
+                  <a class="menu-panel__submenu-link" href="spot.html" data-active="Movie">Movie</a>
                 </div>
                 <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-listing.html">Tv</a>
+                  <a class="menu-panel__submenu-link" href="spot.html" data-active="Tv">Tv</a>
                 </div>
                 <div class="menu-panel__submenu-item">
-                  <a class="menu-panel__submenu-link" href="news-masonry.html">Location</a>
+                  <a class="menu-panel__submenu-link" href="spot.html" data-active="Location">Location</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="menu-panel__menu-item">
-            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="#submenu4">Contact</a>
+            <a class="menu-panel__menu-link collapsed collapsed" data-toggle="collapse" href="contact.html">Contact</a>
           </div>
         </div>
         <div class="menu-panel__footer">
           <div class="socials menu-panel__socials">
-            <a class="socials__social icofont-twitter" href="#">
+            <a class="socials__social icofont-twitter" href="page-404.html">
               <div class="visually-hidden">twitter</div>
             </a>
-            <a class="socials__social icofont-facebook" href="#">
+            <a class="socials__social icofont-facebook" href="page-404.html">
               <div class="visually-hidden">facebook</div>
             </a>
-            <a class="socials__social icofont-google-plus" href="#">
+            <a class="socials__social icofont-google-plus" href="page-404.html">
               <div class="visually-hidden">google plus</div>
             </a>
           </div>
           <div class="menu-panel__bottom">
-            <div class="menu-panel__copyright">© 2019
-              <strong>ARQUITO.</strong>
+            <div class="menu-panel__copyright">© 2020
+              <strong>Zipshowkorea.</strong>
               All Rights Reserved.
-            </div>
-            <div class="menu-panel__author">Design by
-              <a href="#">Logan Cee</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
-  <!-- 메인 파노라마 슬라이드 -->
   <main>
     <div class="panorama-slider2">
       <div class="revolution-slider">
         <div class="revolution-slider__slider rev rev_slider fullwidthabanner false" data-version="5.4.6" style="display:none;">
+          <!-- 메인 파노라마 슬라이드 영역 -->
           <ul>
             <li data-panorama='{"image":"img/panorams/pano1.jpg","autoplay":"true","mousewheelZoom":"false","smoothZoom":"true","autoplayDirection":"forward","controls":"throw","autoplaySpeed":"80","throwSpeed":"750","zoomMin":"75","zoomMax":"150","cameraFov":"75","cameraFar":"1000","sphereRadius":"100","sphereWsegments":"100","sphereHsegments":"40"}'>
               <img alt=""
@@ -238,9 +236,7 @@
                            data-responsive_offset="on"
                            data-type="text"
                            data-whitespace="nowrap"
-                           data-width="none">합천
-                        <br/><br/>
-                        영상테마파크
+                           data-width="none">합천영상테마파크
                       </div>
                       <div class="panorama-slider2__label tp-caption tp-resizeme"
                            data-frames='[{"delay":200,"speed":500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
@@ -262,7 +258,7 @@
                          data-type="text"
                          data-whitespace="nowrap"
                          data-width="none"
-                         href="#">See projects
+                         href="page-404.html">view more
                       </a>
                     </div>
                   </div>
@@ -275,7 +271,7 @@
                    data-bgfit="cover"
                    data-bgposition="center center"
                    data-bgrepeat="no-repeat"
-                   data-lazyload="img/panorams/panorama2.jpg"
+                   data-lazyload="img/panorams/pano2.jpg"
                    data-no-retina=""
                    src="assets/img/dummy.png"/>
               <div class="panorama-slider2__slide">
@@ -287,7 +283,7 @@
                          data-responsive_offset="on"
                          data-type="text"
                          data-whitespace="nowrap"
-                         data-width="none">Hello from Arquito’s Team
+                         data-width="none">합천영상테마파크
                     </div>
                     <div class="panorama-slider2__title-wrapper">
                       <div class="panorama-slider2__title tp-caption tp-resizeme"
@@ -296,9 +292,7 @@
                            data-responsive_offset="on"
                            data-type="text"
                            data-whitespace="nowrap"
-                           data-width="none">UCAM Minimalist
-                        <br/>
-                        Apartment
+                           data-width="none">종로 골목
                       </div>
                       <div class="panorama-slider2__label tp-caption tp-resizeme"
                            data-frames='[{"delay":200,"speed":500,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
@@ -320,7 +314,7 @@
                          data-type="text"
                          data-whitespace="nowrap"
                          data-width="none"
-                         href="#">See projects
+                         href="page-404.html">See projects
                       </a>
                     </div>
                   </div>
@@ -330,19 +324,19 @@
           </ul>
         </div>
       </div>
-      <!-- 아마도 탭 메뉴로 대체 -->
+      <!-- 파노라마 슬라이드 푸터 영역 -->
       <div class="panorama-slider2__footer">
-        <div class="container">
-          <div class="panorama-slider2__footer-inner">
-            <ul class="panorama-slider2__footer-menu">
+        <div class="container" style="background-color: transparent;">
+          <div class="panorama-slider2__footer-inner" style="background-color: transparent;">
+            <ul class="panorama-slider2__footer-menu" style="background-color: transparent;">
               <li class="panorama-slider2__footer-item">
-                <a class="panorama-slider2__footer-link" href="#">Dedicated Team</a>
+                <a class="panorama-slider2__footer-link" href="page-404.html"></a>
               </li>
               <li class="panorama-slider2__footer-item">
-                <a class="panorama-slider2__footer-link" href="#">Fast Delivery time</a>
+                <a class="panorama-slider2__footer-link" href="page-404.html"></a>
               </li>
               <li class="panorama-slider2__footer-item">
-                <a class="panorama-slider2__footer-link" href="#">Affordable Price</a>
+                <a class="panorama-slider2__footer-link" href="page-404.html"></a>
               </li>
             </ul>
           </div>
@@ -357,14 +351,15 @@
         </div>
       </div>
     </div>
-    <!-- 촬영장 소식지 영역 -->
+    <!-- 촬영장 소식 영역 -->
     <div class="project-block">
       <div class="container">
         <div class="row">
+          <!-- 촬영장 소식지 리스트 -->
           <div class="col-12 col-md-5 col-lg-4">
             <div class="project-block__subtitle">News</div>
-            <div class="project-block__title">촬영장의 소식을 만나보세요.</div>
-            <a class="project-block__project" href="#">
+            <div class="project-block__title">HOT 한 영화, 드라마의 정보를 만나보세요</div>
+            <a class="project-block__project" href="news/news_detail1.html">
               <span class="project-block__image-wrapper">
                 <img alt="" class="project-block__image" src="https://img1.daumcdn.net/thumb/S560x400/?scode=1boon&fname=https://t1.daumcdn.net/liveboard/feelthemovie/ec2227774b39435f9a8848bb67b667d5.JPG"/>
               </span>
@@ -372,50 +367,30 @@
                 <span class="project-block__project-content-inner">
                   <span class="project-block__project-subtitle">
                     곡성
-                 </span>
-                 <span class="project-block__project-title">
-                   진짜 신내림 받을까봐...
                   </span>
-                  <span class="project-block__project-more">
-                    view project
-                    <span class="project-block__project-more-arrow icon-chevron-right">
-
-                    </span>
+                  <span class="project-block__project-title">
+                    진짜 신내림 받을까봐...
                   </span>
                 </span>
               </span>
             </a>
             <div class="review-slider project-block__reviews d-md-none d-lg-block">
               <div class="review-slider__title">
-                Loved
-                <br/>
-                from clients
+                명대사
               </div>
               <div class="review-slider__slider swiper-container">
                 <div class="swiper-wrapper">
                   <div class="review-slider__slide swiper-slide">
-                    <div class="review-slider__text">
-                      “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                    </div>
-                    <div class="review-slider__person">
-                      Edison Cavani
-                    </div>
+                    <div class="review-slider__text">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”</div>
+                    <div class="review-slider__person">영화제목 - 극 중 이름</div>
                   </div>
                   <div class="review-slider__slide swiper-slide">
-                    <div class="review-slider__text">
-                      “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                    </div>
-                    <div class="review-slider__person">
-                      Edison Cavani
-                    </div>
+                    <div class="review-slider__text">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”</div>
+                    <div class="review-slider__person">영화제목 - 극 중 이름</div>
                   </div>
                   <div class="review-slider__slide swiper-slide">
-                    <div class="review-slider__text">
-                      “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                    </div>
-                    <div class="review-slider__person">
-                      Edison Cavani
-                    </div>
+                    <div class="review-slider__text">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.”</div>
+                    <div class="review-slider__person">영화제목 - 극 중 이름</div>
                   </div>
                 </div>
               </div>
@@ -430,7 +405,7 @@
             </div>
           </div>
           <div class="col-12 col-md-7 col-lg-7 offset-lg-1">
-            <a class="project-block__project" href="#">
+            <a class="project-block__project" href="page-404.html">
               <span class="project-block__image-wrapper">
                 <img alt="" class="project-block__image" src="https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Factorlovers%2F2555e24f822546ca82d6125e18f674cd.png"/>
               </span>
@@ -451,7 +426,7 @@
                 </span>
               </span>
             </a>
-            <a class="project-block__project" href="#">
+            <a class="project-block__project" href="page-404.html">
               <span class="project-block__image-wrapper">
                 <img alt="" class="project-block__image" src="https://img1.daumcdn.net/thumb/R720x0/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fliveboard%2Fmaxmovie%2Feb327de771b742c8aa659e63a4fec0ce.JPG"/>
               </span>
@@ -463,8 +438,7 @@
                   <span class="project-block__project-title">
                     대구 모자 사망 사건이 스크린으로…
                   </span>
-                  <span class="project-block__project-more">
-                    view project
+                  <span class="project-block__project-more">view project
                     <span class="project-block__project-more-arrow icon-chevron-right">
 
                     </span>
@@ -472,100 +446,73 @@
                 </span>
               </span>
             </a>
-          </div>
-        </div>
-        <div class="review-slider project-block__reviews d-none d-md-block d-lg-none">
-          <div class="review-slider__title">Loved
-            <br/>
-            from clients
-          </div>
-          <div class="review-slider__slider swiper-container">
-            <div class="swiper-wrapper">
-              <div class="review-slider__slide swiper-slide">
-                <div class="review-slider__text">
-                  “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                </div>
-                <div class="review-slider__person">
-                  Edison Cavani
-                </div>
-              </div>
-              <div class="review-slider__slide swiper-slide">
-                <div class="review-slider__text">
-                  “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                </div>
-                <div class="review-slider__person">
-                  Edison Cavani
-                </div>
-              </div>
-              <div class="review-slider__slide swiper-slide">
-                <div class="review-slider__text">
-                  “Originally, creative and with an innate understanding of their’s customer need. The teamArquito are alway a pleasure to work with.”
-                </div>
-                <div class="review-slider__person">
-                  Edison Cavani
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="review-slider__controls">
-            <button class="review-slider__control review-slider__control_prev icon-chevron-left" type="button">
-              <span class="visually-hidden">prev</span>
-            </button>
-            <button class="review-slider__control review-slider__control_next icon-chevron-right" type="button">
-              <span class="visually-hidden">next</span>
-            </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-7 col-lg-7">
-            <a class="project-block__project" href="#">
-              <span class="project-block__image-wrapper project-block__image-wrapper_offset"><img alt="" class="project-block__image" src="img/latest-project-4.jpg"/></span>
-              <span class="project-block__project-content"><span class="project-block__project-content-inner"><span class="project-block__project-subtitle">Residence</span><span class="project-block__project-title">Rennovate Toilet, Denmark</span><span
-                class="project-block__project-more">view project<span class="project-block__project-more-arrow icon-chevron-right"></span></span></span></span>
-            </a>
-          </div>
-          <div class="project-block__read-more-column col-12 col-md-5 col-lg-4 offset-lg-1">
-            <a class="project-block__project" href="#">
-              <span class="project-block__image-wrapper"><img alt="" class="project-block__image" src="img/latest-project-5.jpg"/></span>
-              <span class="project-block__project-content"><span class="project-block__project-content-inner"><span class="project-block__project-subtitle">Interior Design</span><span class="project-block__project-title">Living Room, NY</span></span></span>
-            </a>
-            <div class="project-block__read-more link link link_inverted">see all project</div>
+            <div class="project-block__read-more-column col-12 col-md-5 col-lg-4 offset-lg-1"></div>
+            <div class="project-block__read-more link link link_inverted"><a href="page-404.html">see all story</a></div>
           </div>
         </div>
       </div>
     </div>
+    <!--스팟 소개 -->
     <div class="featured-block">
       <div class="container">
         <div class="featured-block__head">
-          <div class="featured-block__title">Featured Posts</div>
-          <a class="featured-block__head-link" href="#">All Posts
+          <div class="featured-block__title">촬영장 VR 체험존</div>
+          <a class="featured-block__head-link" href="sopt.html">All Spots
             <span class="featured-block__head-icon icon-chevron-right"></span>
           </a>
         </div>
         <div class="featured-block__list">
           <div class="featured-block__item">
-            <a class="featured-block__item-inner" href="#">
+            <a class="featured-block__item-inner" href="page-404.html">
               <img alt="" src="img/featured-post-image-1.jpg"/>
               <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Inspiration</span><span class="featured-block__date">Oct 20, 2019</span></span><span
                 class="featured-block__item-title">Top 20 AIA Architecture Winners: Tropical Villa</span></span>
             </a>
           </div>
           <div class="featured-block__item">
-            <a class="featured-block__item-inner" href="#">
+            <a class="featured-block__item-inner" href="page-404.html">
               <img alt="" src="img/featured-post-image-2.jpg"/>
               <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Discover</span><span class="featured-block__date">Oct 8, 2019</span></span><span
                 class="featured-block__item-title">Top 5 Award Winner Interior 2019</span></span>
             </a>
           </div>
           <div class="featured-block__item">
-            <a class="featured-block__item-inner" href="#">
+            <a class="featured-block__item-inner" href="page-404.html">
               <img alt="" src="img/featured-post-image-3.jpg"/>
               <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Tricks & Tips</span><span class="featured-block__date">Sep 24, 2019</span></span><span
                 class="featured-block__item-title">Setup Your Bedroom In Modern Style</span></span>
             </a>
           </div>
           <div class="featured-block__item">
-            <a class="featured-block__item-inner" href="#">
+            <a class="featured-block__item-inner" href="page-404.html">
+              <img alt="" src="img/featured-post-image-4.jpg"/>
+              <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Event</span><span class="featured-block__date">Sep 6, 2019</span></span><span
+                class="featured-block__item-title">Wooden Exhibition Event In Romania</span></span>
+            </a>
+          </div>
+          <div class="featured-block__item">
+            <a class="featured-block__item-inner" href="page-404.html">
+              <img alt="" src="img/featured-post-image-1.jpg"/>
+              <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Inspiration</span><span class="featured-block__date">Oct 20, 2019</span></span><span
+                class="featured-block__item-title">Top 20 AIA Architecture Winners: Tropical Villa</span></span>
+            </a>
+          </div>
+          <div class="featured-block__item">
+            <a class="featured-block__item-inner" href="page-404.html">
+              <img alt="" src="img/featured-post-image-2.jpg"/>
+              <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Discover</span><span class="featured-block__date">Oct 8, 2019</span></span><span
+                class="featured-block__item-title">Top 5 Award Winner Interior 2019</span></span>
+            </a>
+          </div>
+          <div class="featured-block__item">
+            <a class="featured-block__item-inner" href="page-404.html">
+              <img alt="" src="img/featured-post-image-3.jpg"/>
+              <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Tricks & Tips</span><span class="featured-block__date">Sep 24, 2019</span></span><span
+                class="featured-block__item-title">Setup Your Bedroom In Modern Style</span></span>
+            </a>
+          </div>
+          <div class="featured-block__item">
+            <a class="featured-block__item-inner" href="page-404.html">
               <img alt="" src="img/featured-post-image-4.jpg"/>
               <span class="featured-block__item-content"><span class="featured-block__item-footer"><span class="featured-block__category">Event</span><span class="featured-block__date">Sep 6, 2019</span></span><span
                 class="featured-block__item-title">Wooden Exhibition Event In Romania</span></span>
@@ -573,126 +520,63 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="clients">
-          <div class="clients__title">Our partners</div>
-          <div class="clients__list">
-            <div class="clients__item">
-              <div class="clients__item-inner">
-                <img alt="" src="img/client-1-dark.png"/>
-              </div>
-            </div>
-            <div class="clients__item">
-              <div class="clients__item-inner">
-                <img alt="" src="img/client-2-dark.png"/>
-              </div>
-            </div>
-            <div class="clients__item">
-              <div class="clients__item-inner">
-                <img alt="" src="img/client-3-dark.png"/>
-              </div>
-            </div>
-            <div class="clients__item">
-              <div class="clients__item-inner">
-                <img alt="" src="img/client-4-dark.png"/>
-              </div>
-            </div>
-            <div class="clients__item">
-              <div class="clients__item-inner">
-                <img alt="" src="img/client-5-dark.png"/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </!->
-  <footer class="footer-interior footer" style="background-image: url('img/footer-interior-image.jpg')">
+  </main>
+  <footer class="footer-interior footer" style="background: #000">
     <div class="container-fluid">
       <div class="row">
         <div class="footer-interior__column col-6 col-xl-3">
           <div class="footer-interior__group-title">Company</div>
           <ul class="footer-interior__list">
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">About</a>
+              <a class="footer-interior__list-link" href="page-404.html">About</a>
             </li>
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Contact</a>
+              <a class="footer-interior__list-link" href="contact.html">Contact</a>
             </li>
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Career</a>
+              <a class="footer-interior__list-link" href="page-404.html">Career</a>
             </li>
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Services</a>
+              <a class="footer-interior__list-link" href="page-404.html">Services</a>
             </li>
           </ul>
         </div>
         <div class="footer-interior__column col-6 col-xl-3">
-          <div class="footer-interior__group-title">Help Center</div>
-          <ul class="footer-interior__list">
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">FAQs</a>
-            </li>
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Term & Conditions</a>
-            </li>
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Privacy</a>
-            </li>
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">How It Works</a>
-            </li>
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Return</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-interior__column col-12 col-sm-6 col-xl-3">
           <div class="footer-interior__group-title">Get In Touch</div>
-          <p>17 Princess Road, London, Greater London,
-            <br/>
-            NW18JR, United Kingdom
+          <p>
+            인천 부평구 부평대로 293 부평테크시티 908호, 집쇼코리아
           </p>
           <p>
-            <a href="mailto:hello@arquito.uk">hello@arquito.uk</a>
+            <a href="mailto:zipshowkorea@gmail.com">zipshowkorea@gmail.com</a>
           </p>
-          <p>(+0084) 912-3548-073</p>
-        </div>
-        <div class="footer-interior__column col-12 col-sm-6 col-xl-3">
-          <div class="footer-interior__group-title">Newsletter</div>
-          <p>Subscribe and get 10% off from our furniture store</p>
-          <form action="#" class="footer-interior__form">
-            <input class="footer-interior__input" placeholder="Enter your email..." type="text"/>
-            <button class="footer-interior__submit">Subscribe
-              <span class="footer-interior__submit-icon icon-chevron-right"></span>
-            </button>
-          </form>
+          <p>070-5180-0011</p>
         </div>
       </div>
       <div class="footer-interior__bottom">
         <div class="row">
           <div class="footer-interior__column col-12 col-sm-6">
-            <div class="footer-interior__copyright">© 2019
-              <strong>ARQUITO.</strong>
-              All Rights Reserved. Design by
-              <a href="#">Logan Cee</a>
+            <div class="footer-interior__copyright">© 2020
+              <strong>Zipshowkorea.</strong>
+              All Rights Reserved.
+              <a href="page-404.html"></a>
             </div>
           </div>
           <div class="footer-interior__column col-12 col-sm-6 col-lg-3 offset-lg-3">
             <div class="footer-interior__socials">
-              <a class="footer-interior__social icofont-twitter" href="#">
+              <a class="footer-interior__social icofont-twitter" href="page-404.html">
                 <div class="visually-hidden">twitter</div>
               </a>
-              <a class="footer-interior__social icofont-facebook" href="#">
+              <a class="footer-interior__social icofont-facebook" href="page-404.html">
                 <div class="visually-hidden">facebook</div>
               </a>
-              <a class="footer-interior__social icofont-behance" href="#">
+              <a class="footer-interior__social icofont-behance" href="page-404.html">
                 <div class="visually-hidden">behance</div>
               </a>
-              <a class="footer-interior__social icofont-google-plus" href="#">
+              <a class="footer-interior__social icofont-google-plus" href="page-404.html">
                 <div class="visually-hidden">google plus</div>
               </a>
-              <a class="footer-interior__social icofont-linkedin" href="#">
+              <a class="footer-interior__social icofont-linkedin" href="page-404.html">
                 <div class="visually-hidden">linkedin</div>
               </a>
             </div>

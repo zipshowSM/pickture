@@ -5215,7 +5215,7 @@ panorama-slider2
   height: 100%;
   width: 100%;
   right: 50%;
-  background: #fff;
+  background: transparent;
   z-index: 1;
 }
 
@@ -6795,15 +6795,33 @@ single-post
   line-height: 1.75;
   color: #666;
   margin-bottom: 76px;
+  
 }
 
 .single-post__text p {
   margin-bottom: 30px;
 }
 
+.single-post__text p:first-child {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.single-post__text_title {
+  box-shadow: inset 0 -4px 0 #fcf018;
+}
+
+.single-post__text img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
 .single-post__images {
   margin-bottom: 62px;
 }
+
 
 .single-post__subtitle {
   font-weight: 600;
