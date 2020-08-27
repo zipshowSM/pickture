@@ -3528,10 +3528,10 @@ header
   position: absolute;
   right: -13px;
   top: 50%;
-  margin-top: -47px;
+  margin-top: -40px;
   border: 0;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: none;
   display: -ms-flexbox;
   display: flex;
@@ -3555,8 +3555,8 @@ header
 }
 
 .header__menu-button-inner {
-  height: 7px;
-  width: 70px;
+  height: 5px;
+  width: 40px;
   background: currentColor;
   position: relative;
   border: 0;
