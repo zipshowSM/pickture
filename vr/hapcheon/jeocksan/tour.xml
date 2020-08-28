@@ -79,14 +79,14 @@
 
 
 	
-	<scene name="scene___________________04" title="적산가옥거리04" onstart="" thumburl="panos/__________________04.tiles/thumb.jpg" lat="35.54911294" lng="128.07100883" heading="0.0">
+	<scene name="scene_jecoksan" title="jecoksan" onstart="" thumburl="panos/jecoksan.tiles/thumb.jpg" lat="35.54911294" lng="128.07100883" heading="0.0">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/__________________04.tiles/preview.jpg" />
+		<preview url="panos/jecoksan.tiles/preview.jpg" />
 
 		<image>
-			<cube url="panos/__________________04.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+			<cube url="panos/jecoksan.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
 		</image>
 
 	</scene>
