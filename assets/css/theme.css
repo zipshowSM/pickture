@@ -1204,7 +1204,7 @@ contact-block
 
 .contact-block__map {
   height: 500px;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-bottom: 130px;
 }
 
@@ -1586,7 +1586,7 @@ featured-block
 }
 
 .featured-block__title {
-  font-size: 16px;
+  font-size: 26px;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.12em;
@@ -3692,7 +3692,7 @@ heading-default
 
 .heading-default__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 35px;
   line-height: 1.2;
   margin-bottom: 11px;
 }
@@ -5042,6 +5042,7 @@ panorama-slider
   text-decoration: none;
   color: #000;
   transition: color 0.3s;
+  display: none;
 }
 
 .panorama-slider__menu-link:hover {
@@ -5100,8 +5101,8 @@ panorama-slider2
 
 .panorama-slider2__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 120px;
-  line-height: 0.875;
+  font-size: 100px;
+  line-height: 1.2;
   -ms-flex-positive: 1;
   flex-grow: 1;
   margin-left: -6px;
@@ -5710,9 +5711,14 @@ project-block
 
 .project-block__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 46px;
-  line-height: 1.043478260869565;
+  font-size: 40px;
+  line-height: 1.5;
   margin-bottom: 124px;
+  word-break: keep-all;
+}
+
+footer {
+  word-break: keep-all;
 }
 
 .project-block__project {
@@ -5767,9 +5773,9 @@ project-block
 
 .project-block__project-title {
   display: block;
-  font-size: 48px;
+  font-size: 35px;
   font-family: 'Teko', Helvetica, sans-serif;
-  line-height: 1;
+  line-height: 1.2;
   width: 70%;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -6244,10 +6250,10 @@ quote
   line-height: 1.666666666666667;
   font-weight: 100;
   line-height: 1.5;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
+  padding-left: 3%;
+  padding-right: 3%;
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .quote__text strong {
@@ -6267,13 +6273,14 @@ quote
 .quote__name {
   font-size: 16px;
   line-height: 1.75;
-  padding-left: 12.5%;
+  padding-left: 4%;
   line-height: 1.5;
 }
 
 .quote__role {
   color: #999;
-  padding-left: 12.5%;
+  padding-left: 4%;
+  font-size: 16px;
 }
 
 /*
@@ -6282,13 +6289,13 @@ review-slider
 
 .review-slider__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  line-height: 0.875;
-  font-size: 80px;
-  margin-bottom: 44px;
+  line-height: 1;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .review-slider__slider {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .review-slider__text {
@@ -6308,6 +6315,7 @@ review-slider
   display: -ms-flexbox;
   display: flex;
   font-size: 22px;
+  margin-bottom: 40px;
 }
 
 .review-slider__control {
@@ -6497,6 +6505,7 @@ revolution-slider
 
 .revolution-slider .tparrows.tp-leftarrow:before {
   content: "\e93b";
+  display: none;
 }
 
 .revolution-slider .tparrows.tp-rightarrow {
@@ -6506,6 +6515,7 @@ revolution-slider
 
 .revolution-slider .tparrows.tp-rightarrow:before {
   content: "\e93c";
+  display: none;
 }
 
 /*
@@ -6774,13 +6784,13 @@ single-post
 
 .single-post__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 28px;
   line-height: 1;
   margin-bottom: 76px;
 }
 
 .single-post__intro {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.666666666666667;
   font-weight: 100;
   margin-bottom: 74px;
@@ -6793,9 +6803,14 @@ single-post
 .single-post__text {
   font-size: 16px;
   line-height: 1.75;
-  color: #666;
+  color: #333;
   margin-bottom: 76px;
   
+}
+
+.single-post__text iframe {
+  height: 35vh;
+  margin-bottom: 30px;
 }
 
 .single-post__text p {
@@ -6816,6 +6831,7 @@ single-post
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 .single-post__images {

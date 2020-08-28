@@ -45,7 +45,7 @@
     <div class="header__container">
       <div class="header__wrapper container-fluid">
         <div class="header__inner">
-          <a class="logo header__logo" href="index.html">Pickture</a>
+          <a class="logo header__logo" href="../index.html"><img src="img/logo_black.svg" alt="Pickture logo" height="80px"></a>
           <button class="header__menu-button" type="button">
             <span class="header__menu-button-inner"></span>
           </button>
@@ -137,22 +137,24 @@
           </div>
           <div class="col-12 col-lg-7">
             <div class="heading-smallest heading-smallest heading-smallest_has-offset heading-smallest heading-smallest_size_small">get in touch</div>
-            <form class="contact-block__form">
+            <form class="contact-block__form gform" action="https://script.google.com/macros/s/AKfycbzP6-IMG-0eVG8a33YgApHfvrcHO9F9fwpN_8M4tA/exec" method="POST" data-email="zipshowkorea@gmail.com" id="contactForm" name="askForm">
               <div class="row">
                 <div class="col-12 col-sm-6">
-                  <input class="contact-block__input-text" placeholder="Name" type="text"/>
+                  <input class="contact-block__input-text" placeholder="Name" type="text" name="name"/>
                 </div>
                 <div class="col-12 col-sm-6">
-                  <input class="contact-block__input-text" placeholder="Subject" type="text"/>
+                  <input class="contact-block__input-text" placeholder="Tel" type="text" name="tel"/>
                 </div>
                 <div class="col-12">
-                  <textarea class="contact-block__input-textarea" placeholder="Here goes your message"></textarea>
-                  <button class="contact-block__submit">Send Message
+                  <textarea class="contact-block__input-textarea" placeholder="Here goes your message" name="ask"></textarea>
+                  <button class="contact-block__submit" type="submit">Send Message
                     <span class="contact-block__submit-icon icofont-caret-right"></span>
                   </button>
                 </div>
               </div>
             </form>
+            <script data-cfasync="false" src="assets/js/form-submission-handler.js"></script>
+            <script data-cfasync="false" src="assets/js/google-apps-script.js"></script>
           </div>
         </div>
       </div>
@@ -162,19 +164,19 @@
     <div class="container-fluid">
       <div class="row">
         <div class="footer-interior__column col-6 col-xl-3">
+          <a href="index.html" style="position: relative; width: 100%; height: 100%;"><img src="img/logo_white.svg" alt="Pickture logo" style="width: 60%; position: absolute; top:50%; transform: translateY(-50%);"></a>
+        </div>
+        <div class="footer-interior__column col-6 col-xl-3">
           <div class="footer-interior__group-title">Company</div>
           <ul class="footer-interior__list">
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">About</a>
+              <a class="footer-interior__list-link" href="http://zipshowkorea.com/intro.html">About</a>
             </li>
             <li class="footer-interior__list-item">
               <a class="footer-interior__list-link" href="contact.html">Contact</a>
             </li>
             <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Career</a>
-            </li>
-            <li class="footer-interior__list-item">
-              <a class="footer-interior__list-link" href="#">Services</a>
+              <a class="footer-interior__list-link" href="http://zipshowkorea.com/work.html">Career</a>
             </li>
           </ul>
         </div>
@@ -195,24 +197,24 @@
             <div class="footer-interior__copyright">© 2020
               <strong>Zipshowkorea.</strong>
               All Rights Reserved.
-              <a href="#"></a>
+              <a href="page-404.html"></a>
             </div>
           </div>
           <div class="footer-interior__column col-12 col-sm-6 col-lg-3 offset-lg-3">
             <div class="footer-interior__socials">
-              <a class="footer-interior__social icofont-twitter" href="#">
+              <a class="footer-interior__social icofont-twitter" href="page-404.html">
                 <div class="visually-hidden">twitter</div>
               </a>
-              <a class="footer-interior__social icofont-facebook" href="#">
+              <a class="footer-interior__social icofont-facebook" href="page-404.html">
                 <div class="visually-hidden">facebook</div>
               </a>
-              <a class="footer-interior__social icofont-behance" href="#">
+              <a class="footer-interior__social icofont-behance" href="page-404.html">
                 <div class="visually-hidden">behance</div>
               </a>
-              <a class="footer-interior__social icofont-google-plus" href="#">
+              <a class="footer-interior__social icofont-google-plus" href="page-404.html">
                 <div class="visually-hidden">google plus</div>
               </a>
-              <a class="footer-interior__social icofont-linkedin" href="#">
+              <a class="footer-interior__social icofont-linkedin" href="page-404.html">
                 <div class="visually-hidden">linkedin</div>
               </a>
             </div>
